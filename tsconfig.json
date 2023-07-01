@@ -15,12 +15,16 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@components/*": ["src/components/*"],
-      "@layouts/*": ["src/layouts/*"],
-      "@routes": ["src/routes.ts"],
-      "@hooks/*": ["src/hooks/*"],
-      "@stores/*": ["src/stores/*"],
-      "@pages/*": ["src/pages/*"]
+      "@features/*": ["src/features/*"],
+      "@composable/*": ["src/core/composable/*"],
+      "@router/*": ["src/core/router/*"],
+      "@components/*": ["src/common/components/*"],
+      "@layouts/*": ["src/common/layouts/*"],
+      "@stores/*": ["src/common/stores/*"],
+      "@pages/*": ["src/common/pages/*"],
+      "@constants/*": ["src/common/constants/*"],
+      "@directives/*": ["src/common/directives/*"],
+      "@styles/*": ["src/common/styles/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],

@@ -63,4 +63,4 @@ module.exports = {
   // skip any questions you want
   skipQuestions: [],
   subjectLimit: 100,
-}
+};

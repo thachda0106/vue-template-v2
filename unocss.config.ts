@@ -6,7 +6,7 @@ import {
   presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
-} from 'unocss'
+} from 'unocss';
 
 export default defineConfig({
   presets: [
@@ -27,4 +27,4 @@ export default defineConfig({
     transformerDirectives(), // @apply, @screen and theme() directive (@unocss/transformer-directives)
     transformerVariantGroup(), // nhóm CSS lại với nhau => hover:(bg-gray-400 font-medium) (@unocss/transformer-variant-group)
   ],
-})
+});
