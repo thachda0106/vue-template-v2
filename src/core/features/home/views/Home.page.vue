@@ -1,1 +1,6 @@
-<template><h1 class="bg-primary" >hello</h1></template>
+<script lang="ts">
+</script>
+
+<template>
+   <AppLink :to="'/products'" > Go</AppLink>
+</template>
