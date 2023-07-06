@@ -9,7 +9,7 @@ export const routes = [
       {
         path: '',
         name: 'home',
-        component: () => import('@features/home/views/index.vue'),
+        component: () => import('@features/home/views/Home.page.vue'),
         meta: {
           requiresAuth: true,
           headerTitle: 'Dashboard',
@@ -22,13 +22,13 @@ export const routes = [
   {
     path: '/:pathMatch(.*)*',
     name: 'Page Not Found',
-    component: () => import('@pages/not-found/index.vue'),
+    component: () => import('@features/NotFound.page.vue'),
   },
 
   {
     path: '/error',
     name: 'Error',
-    component: () => import('@pages/error/index.vue'),
+    component: () => import('@features/Error.page.vue'),
   },
 ];
 
